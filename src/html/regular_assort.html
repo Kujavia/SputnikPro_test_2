@@ -1,0 +1,38 @@
+
+    <div class="regular_assort_container">
+        
+        <label for="regular_assort_method">Метод прогнозирования</label>
+        <select id="regular_assort_method">
+            <option value="option2">Скользящая средняя</option>
+            <option value="option1">Средневзвешенная</option>
+            <option value="option2">Линейная регрессия</option>
+            <option value="option1">Множестевнная регрессия</option>
+            <option value="option2">Полиномиальная регрессия</option>
+            <option value="option1">Хольта - Винтерса</option>
+            <option value="option2">Экспоненциальное сглаживание</option>
+            <option value="option2">Вероятностная модель</option>
+        </select>
+
+        <label for="regular_assort_period">Период</label>
+        <select id="regular_assort_period">
+            <option value="option2">1</option>
+            <option value="option1">2</option>
+            <option value="option2">3</option>
+            <option value="option1">4</option>
+            <option value="option2">5</option>
+            <option value="option1">6</option>
+            <option value="option2">7</option>
+            <option value="option2">8</option>
+        </select>
+    
+        <!-- кнопка сохранить -->
+    
+        <button id="regular_assort_calculate_forecast">Рассчитать прогноз</button>
+    
+          <!-- кнопка скачать шаблон -->
+        <button id="regular_assort_export">Экспорт</button>
+
+         <!-- кнопка загрузить-->
+        <button onclick="tb_regular_assort_preview()"  id="regular_assort_preview">Preview</button>
+    </div>
+    <iframe  id="tb_regular_assort_preview" src="" width="1000" height="200"></iframe>
