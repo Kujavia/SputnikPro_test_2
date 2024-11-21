@@ -1,0 +1,42 @@
+.seasonality_contaier {
+    display: grid;
+    grid-template-columns: repeat(2, 350px); /* 3 столбца */
+    grid-template-rows: repeat(7, auto); /* 7 строк с автоматической высотой */
+    gap: 10px; /* Промежуток между элементами */
+    padding-left: 40px; 
+    padding-top: 20px;
+    // width: 800px;
+}
+#seasonality_aggregate,#seasonality_groupSCU, #seasonality_geography, #aseasonality_groupSCU, #seasonality_method,#action_discount{
+    width: 200px;
+    height: 30px;
+    margin-top: 2%;
+}
+#seasonality_saveButton{
+    grid-column: span 2;
+    width: 250px;
+    height: 30px;
+    margin-left: 180px;
+}
+
+#seasonality_action_saveButton{
+    margin-top: 30px;
+    width: 300px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+#seasonality_previewButton{
+    grid-column: span 2;
+    margin-top: 50px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:azure;
+    border: 1px $second-color solid;
+    margin-left: 100%;
+}
+
+#tb_seasonality{
+    margin-top: 20px;
+}
